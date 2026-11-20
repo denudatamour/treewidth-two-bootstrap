@@ -4,6 +4,8 @@ Haimin Zhou · Independent Researcher
 
 **[Read the full preprint (PDF)](https://github.com/denudatamour/treewidth-two-bootstrap/releases/download/preprint-v1.0/treewidth-two-bootstrap-v1.0.pdf)** · [Preprint v1.0, 2026-11-20](https://github.com/denudatamour/treewidth-two-bootstrap/releases/tag/preprint-v1.0)
 
+[Browse the Lean proofs](lean/README.md) · [Download repository source (ZIP)](https://github.com/denudatamour/treewidth-two-bootstrap/archive/refs/heads/main.zip)
+
 Fix a finite simple graph $H$. Start with any graph on $n$ vertices. In one round, add every missing edge that completes a copy of $H$ using edges already present at the start of the round. Write $M_H(n)$ for the greatest possible number of rounds until no further edge can be added. The rule $H$ stays fixed as $n$ grows.
 
 Fabian, Morris and Szabó asked whether every rule of treewidth two satisfies $M_H(n)=O_H(n)$. The first two results below explain why a linear bound holds for theta graphs and for an entire class containing them. The third gives a fixed rule of treewidth two for which the maximum running time is quadratic. [Original conjecture, §8.3, Conjecture 8.8](https://arxiv.org/html/2311.18786v2#S8.SS3) · [Survey, Conjecture 7.14](https://arxiv.org/html/2602.12736v2#S7.SS5)
