@@ -1,6 +1,8 @@
 # From theta graphs to quadratic time in graph bootstrap percolation
 
-Haimin Zhou · Independent Researcher · Research note v0.1.0 · 2026-11-20
+Haimin Zhou · Independent Researcher
+
+**[Read the full preprint (PDF)](https://github.com/denudatamour/treewidth-two-bootstrap/releases/download/preprint-v1.0/treewidth-two-bootstrap-v1.0.pdf)** · [Preprint v1.0, 2026-11-20](https://github.com/denudatamour/treewidth-two-bootstrap/releases/tag/preprint-v1.0)
 
 Fix a finite simple graph $H$. Start with any graph on $n$ vertices. In one round, add every missing edge that completes a copy of $H$ using edges already present at the start of the round. Write $M_H(n)$ for the greatest possible number of rounds until no further edge can be added. The rule $H$ stays fixed as $n$ grows.
 
@@ -8,7 +10,7 @@ Fabian, Morris and Szabó asked whether every rule of treewidth two satisfies $M
 
 ## I. Theta graphs
 
-Join two vertices by three internally disjoint paths of fixed lengths $a,b,c\ge 2$. For the resulting theta rule, $M_H(n)=\Theta_H(n)$. Starting the rule on $H$ itself can give three different outcomes. Mixed path parities give a clique, unequal lengths of one parity give a complete bipartite graph, and three equal lengths leave $H$ stable. All three cases still have linear worst-case time over arbitrary starting graphs. [Theta preprint, version 1.0](https://doi.org/10.5281/zenodo.24227363)
+Join two vertices by three internally disjoint paths of fixed lengths $a,b,c\ge 2$. For the resulting theta rule, $M_H(n)=\Theta_H(n)$. Starting the rule on $H$ itself can give three different outcomes. Mixed path parities give a clique, lengths of one parity that are not all equal give a complete bipartite graph, and three equal lengths leave $H$ stable. All three cases still have linear worst-case time over arbitrary starting graphs. [Theta preprint, version 1.0](https://doi.org/10.5281/zenodo.24227363)
 
 ## II. A structural reason for linear time
 
