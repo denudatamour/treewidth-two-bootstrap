@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite the research note using the reference below."
+title: "From theta graphs to quadratic time in graph bootstrap percolation"
+authors:
+  - family-names: Zhou
+    given-names: Haimin
+    affiliation: Independent Researcher
+    email: haiminzhou.1@gmail.com
+version: "0.1.0"
+date-released: 2026-11-20
+license: CC-BY-4.0
+url: "https://github.com/denudatamour/treewidth-two-bootstrap"
+preferred-citation:
+  type: report
+  title: "From theta graphs to quadratic time in graph bootstrap percolation"
+  authors:
+    - family-names: Zhou
+      given-names: Haimin
+      affiliation: Independent Researcher
+      email: haiminzhou.1@gmail.com
+  year: 2026
+  version: "0.1.0"
+  url: "https://github.com/denudatamour/treewidth-two-bootstrap"
